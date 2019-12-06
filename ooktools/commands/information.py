@@ -24,13 +24,14 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import absolute_import
 
+import sys
 import click
 import numpy
 
 from ..utilities import cleanup_wave_data
 
 # Let numpy print full arrays
-numpy.set_printoptions(threshold=numpy.nan)
+numpy.set_printoptions(threshold=sys.maxsize)
 
 
 def get_wave_info(wave_file):
