@@ -31,7 +31,7 @@ import numpy
 from ..utilities import cleanup_wave_data
 
 # Let numpy print full arrays
-numpy.set_printoptions(threshold=sys.maxsize)
+numpy.set_printoptions(threshold=numpy.nan)
 
 
 def get_wave_info(wave_file):

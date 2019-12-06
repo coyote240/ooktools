@@ -18,7 +18,7 @@ setup(
         'bitstring',
         'click',
         'matplotlib',
-        'numpy',
+        'numpy==1.15.4',
         'peakutils',
     ],
     entry_points={
